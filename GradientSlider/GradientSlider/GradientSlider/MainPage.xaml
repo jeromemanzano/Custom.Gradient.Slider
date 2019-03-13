@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="GradientSlider.MainPage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:GradientSlider">
+
+    <StackLayout>
+        <local:CustomGradientSlider
+            Margin="50"
+            CenterColor="Blue"
+            CornerRadius="5"
+            EndColor="Green"
+            HeightRequest="10"
+            HorizontalOptions="FillAndExpand"
+            Maximum="100"
+            MaximumTrackColor="LightGray"
+            Minimum="0"
+            StartColor="Yellow"
+            VerticalOptions="CenterAndExpand" />
+    </StackLayout>
+</ContentPage>
